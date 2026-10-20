@@ -1,0 +1,8 @@
+/config/database.php
+/config/app.php
+/vendor/
+/.superpowers/
+/.worktrees/
+/runtime/
+*.log
+*.tmp

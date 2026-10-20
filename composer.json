@@ -1,0 +1,60 @@
+{
+  "name": "lizhipay/acg-faka",
+  "type": "project",
+  "description": "一款基于php8开发的原生虚拟发卡系统、个人店铺系统！",
+  "keywords": [
+    "lizhipay",
+    "acg-shop",
+    "faka",
+    "个人发卡",
+    "发卡",
+    "店铺",
+    "网店"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lizhipay",
+      "email": "acged@aliyun.com",
+      "homepage": "https://github.com/lizhipay/acg-faka",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "docs": "https://faka.wiki",
+    "issues": "https://github.com/lizhipay/acg-faka/issues",
+    "source": "https://github.com/lizhipay/acg-faka"
+  },
+  "require": {
+    "php": ">=8.0.0",
+    "smarty/smarty": "~3.1",
+    "illuminate/database": "^7.30.6",
+    "symfony/var-dumper": "^5.1",
+    "illuminate/pagination": "^7.30.6",
+    "rah/danpu": "^2.7",
+    "ext-json": "*",
+    "phpmailer/phpmailer": "^6.5",
+    "ext-openssl": "*",
+    "guzzlehttp/guzzle": "^7.4",
+    "mrgoon/aliyun-sms": "^2.0",
+    "ext-gd": "*",
+    "khanamiryan/qrcode-detector-decoder": "1.0.5.2",
+    "ext-zip": "*",
+    "ext-curl": "*",
+    "firebase/php-jwt": "^6.11",
+    "ezyang/htmlpurifier": "^4.18"
+  },
+  "suggest": {
+    "ext-openssl": "Required to use Encryption.",
+    "ext-json": "Required to use JSON.",
+    "ext-pdo": "Required to use MySQL Client.",
+    "ext-pdo_mysql": "Required to use MySQL Client.",
+    "ext-zip": "Required to use Install."
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Kernel\\": "kernel/"
+    }
+  }
+}
