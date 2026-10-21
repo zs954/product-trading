@@ -1,19 +1,3 @@
-<p align="center">
-  <a href="https://faka.wiki/">
-    <img src="https://raw.githubusercontent.com/lizhipay/acg-faka/refs/heads/main/favicon.ico" width="120" height="120" style="border-radius: 20px;" alt="异次元店铺系统">
-  </a>
-</p>
-
-<br>
-<p align="center">
-<span>
-<img src="https://faka.wiki/svg/php.svg" alt="php8.0,8.1">
-</span>
-<span>
-<img src="https://faka.wiki/svg/mysql-version.svg" alt="mysql5.6+">
-</span>
-<span><img src="https://faka.wiki/svg/license.svg" alt="license"></span>
-</p>
 
 ## 法律声明
 > 本商城程序基于 MIT 协议开源，并且完全免费。该程序的初衷是为开发者提供学习和研究的机会。未取得合法资质，严禁将本程序用于任何商业用途，尤其是禁止利用本程序搭建平台进行商品销售。
